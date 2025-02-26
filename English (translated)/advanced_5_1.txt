@@ -1,0 +1,6 @@
+1. **Window Size**: The window size should be size(400, 400).
+2. **drawStar Function Creation**: Create a drawStar function that draws a star comprised of 5 lines, specifying the center coordinates (cx, cy) and radius r.
+3. **Star Drawing**: Draw stars with a radius of 30 at y-coordinates 100, 200, and 300.
+4. **Star Movement**: Increase the x-coordinate by 1 per frame to move the star to the right. The initial x-coordinate should be randomly specified.
+5. **Loop Movement**: When reaching the right edge, the star should reappear from the left edge.
+6. **Star Centered on Mouse Cursor**: Draw a star centered on the mouse cursor with a radius of 50.

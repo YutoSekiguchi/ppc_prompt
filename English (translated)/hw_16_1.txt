@@ -1,0 +1,37 @@
+1. **Addition of Functions**:
+- Check if the following functions have been added to the `Matrix3x3` class.
+ - `determinant()`: A function to calculate the determinant of the matrix.
+ - `trace()`: A function to calculate the trace of the matrix.
+ - `norm()`: A function to calculate the Euclidean norm (square root of the sum of squares).
+- **Evaluation Points**:
+- Each function is correctly declared (return type should be `float`).
+- Functions are appropriately added within the class.
+
+2. **Implementation of `determinant()` Function**:
+- Verify if the determinant is correctly calculated.
+- **Evaluation Points**:
+ - Correctly implement the method for calculating the determinant of a 3x3 matrix.
+ - Return the correct determinant value for specific matrices.
+
+3. **Implementation of `trace()` Function**:
+- Verify if the trace is correctly calculated.
+- **Evaluation Points**:
+ - Correctly calculate the sum of the elements on the main diagonal.
+ - Return the correct trace value for specific matrices.
+
+4. **Implementation of `norm()` Function**:
+- Verify if the Euclidean norm is correctly calculated.
+- **Evaluation Points**:
+ - Calculate the sum of the squares of all elements and take the square root.
+ - Return the correct norm value for specific matrices.
+
+# The following is a comment and does not affect grading
+The distributed sample matrix is
+{{2, -1, 0},
+{-1, 2, -1},
+{0, -1, -2}}.
+For this matrix,
+Determinant (det) = -8
+Trace (trace) = 2
+Euclidean Norm (norm) = 4
+should be the correct results.

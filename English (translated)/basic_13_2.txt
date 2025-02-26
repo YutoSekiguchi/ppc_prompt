@@ -1,0 +1,6 @@
+1. **Window Size**: The window size is set to size(400, 300).
+2. **Initial Position of Shapes**: The initial positions of the shapes are randomly set.
+3. **Circle Shape**: A red circle with a diameter of 30 pixels is drawn.
+4. **Square Shape**: A blue square with a side length of 30 pixels is drawn.
+5. **Velocity Setting**: The x and y velocities are randomly set between -5 and 5, inclusive, using an integer or floating-point value (e.g. (int)random(-5, 6) or (float)random(-5, 5)).
+6. **Bouncing Implementation**: The bouncing action when the shapes hit a wall is correctly implemented.

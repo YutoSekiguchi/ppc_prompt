@@ -1,0 +1,7 @@
+1. **Creating isAho Function**: A function is correctly created to return true if the integer argument is a multiple of 3 or contains the digit 3, and false otherwise.
+2. **Countdown Display**: Counts down from 99 to 1, displaying each number on a new line in the standard output.
+3. **Displaying Aho**: Outputs "aho" when the number is a multiple of 3 or contains the digit 3.
+4. **Using Loops**: The program is written using either a while or for loop.
+5. **Function Name Confirmation**: The isAho function must be created (a 3-point deduction if not met).
+6. **Aho Condition 1**: Outputs "aho" for values where value%10==3 or values between 30 and 39 (value/10==3).
+7. **Aho Condition 2**: Outputs "aho" for numbers that are multiples of 3 (value%3==0).

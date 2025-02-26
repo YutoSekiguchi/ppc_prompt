@@ -1,0 +1,2 @@
+1. **Creating the countPattern function**: A function that takes a base array and a pattern as arguments and returns the number of occurrences of the pattern is correctly created.
+2. **Outputting the result**: The number of occurrences of each pattern is output to the standard output.

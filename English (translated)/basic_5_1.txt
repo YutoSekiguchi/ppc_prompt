@@ -1,0 +1,13 @@
+1. **Window Size**: The window size is `size(400, 400)`.
+2. **Function f(t) Creation**: Create a function that returns 𝑓(𝑡) = 16sin³(𝑡).
+3. **Function g(t) Creation**: Create a function that returns 𝑔(𝑡) = 13cos(𝑡) - 5cos(2𝑡) - 2cos(3𝑡) - cos(4𝑡).
+4. **Variable t Definition**: The initial value of t is defined as 0.
+5. **Increase of t in draw**: t increases by 0.01 with each call to draw.
+6. **Drawing Red Circle**: Draw a red circle with a diameter of 3 at (200 + 10𝑓(𝑡), 200 - 10𝑔(𝑡)).
+7. **Remove Border**: Use either `noStroke();` or `strokeWeight(0);` to remove the border.
+
+### Evaluation of Insufficient Points
+1. Using 16*sin(t)*sin(t)*sin(t) instead of 16sin³(𝑡)
+・Using pow is not explicitly mentioned in the task requirements, so it will not be subject to deduction.
+2. The order of the terms in 𝑔(𝑡) = 13cos(𝑡) - 5cos(2𝑡) - 2cos(3𝑡) - cos(4𝑡) is different
+・Since the order does not affect the calculation result, it will not be subject to deduction.

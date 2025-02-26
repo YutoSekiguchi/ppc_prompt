@@ -1,0 +1,2 @@
+1. **Magnitude of Vector**: Ensure that the magnitude of the given vector is correctly calculated.
+2. **Dot Product of Vectors**: Ensure that the dot product of two vectors is correctly calculated.

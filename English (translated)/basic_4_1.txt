@@ -1,0 +1,6 @@
+1. The window size is `size(600, 300)`.
+2. The program is designed to draw black rectangles with a width of 10 pixels and a height of 300 pixels on the right half of the screen (from x-coordinate 300 to the right edge), with each rectangle leaving a gap of 20 pixels from the left edge to the right edge.
+3. A white rectangle with a width of 20 pixels and a height of 100 pixels is drawn from the left edge at a y-coordinate of 50 pixels, designed to move 1 pixel to the right.
+4. A black rectangle with a width of 20 pixels and a height of 100 pixels is drawn from the left edge at a y-coordinate of 150 pixels, designed to move 1 pixel to the right.
+5. The moving rectangles reappear from the left edge when they reach near the right edge (using an `if` statement or `frameCount%width(frameCount%600)`).
+6. The border of the rectangles is removed.

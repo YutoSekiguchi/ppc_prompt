@@ -1,0 +1,5 @@
+1. **Window Size**: The window size is `size(800, 400)`.
+2. **Placement of Round Button**: A red round button with a diameter of 80 pixels is placed in the upper left corner of the screen.
+3. **Gacha Implementation**: Each time the round button is clicked, 50 items are randomly obtained, and their counts are displayed in a bar graph.
+4. **Counting Item Numbers**: The cumulative number of each item is counted, and the maximum number of items is displayed in the standard output.
+   - Example Output: The most frequent item is 2

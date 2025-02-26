@@ -1,0 +1,6 @@
+1. **Dice Rolling**: Generating a number between 1 and 6 by rolling a dice three times.
+2. **Prime Number Check**: Checking whether the generated number is a prime number or not.
+3. **Number of Trials**: Conducting 10 million trials.
+4. **Output of Results**: Outputting the probability of the generated number being a prime number to the standard output.
+
+#Example of standard output format (* will be replaced with a number)

@@ -1,0 +1,17 @@
+1. **Character Loading**:
+- **Overview**: Verify that a program is created using the `Ex~~~` classes made by others, where many characters move around autonomously.
+- **Evaluation Points**:
+ - Correctly import five or more `Ex~~~` classes from the same lab.
+ - Each character is freely moving within the screen.
+
+2. **Switching Display Style with Mouse Button**:
+- **Overview**: Check if the implementation allows all characters to switch to a different display style when the mouse button is pressed.
+- **Evaluation Points**:
+ - Correctly detect the state of the mouse button.
+ - Use `displayActive` while the mouse is pressed and `displayInactive` when it is not pressed to switch displays.
+
+3. **Character Management**:
+- **Overview**: Ensure characters are managed properly and operate efficiently.
+- **Evaluation Points**:
+ - Use `ArrayList` to manage character objects appropriately.
+ - Correctly add, remove, and update characters.

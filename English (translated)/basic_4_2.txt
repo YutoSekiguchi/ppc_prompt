@@ -1,0 +1,4 @@
+1. The window size is `size(800, 800)`.
+2. The relationship exists as 𝑥=300*sin(5t)+400, 𝑦 = 300*sin(6t)+400 for x, y, t.
+3. t increases by 0.01 with each call to the draw function.
+4. A circle with a diameter of 5 pixels, filled in black, is drawn centered at the coordinates (x, y).

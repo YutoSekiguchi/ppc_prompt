@@ -1,0 +1,39 @@
+1. **Creation of Satellite Class**:
+- **Overview**: Confirm that the `Satellite` class is created by inheriting from the `CelestialBody` class.
+- **Evaluation Points**:
+  - The `Satellite` class correctly inherits from `CelestialBody`.
+  - The class declaration and inheritance syntax are correct.
+
+2. **Constructor Implementation**:
+- **Overview**: Verify that the constructor of the `Satellite` class is implemented to accept a `Planet` object, which is the satellite's planet, as an argument.
+- **Evaluation Points**:
+  - The constructor is correctly defined and accepts a `Planet` object as an argument.
+  - The `Planet` object received as an argument is appropriately used within the class.
+
+3. **Satellite Parameter Settings**:
+- **Overview**: Confirm that within the constructor, `distance`, `angleSpeed`, `bodyColor`, and radius are set as specified.
+- **Evaluation Points**:
+  - `distance` is randomly set to a value between 30 and 50.
+  - `angleSpeed` is randomly set to a value between 0.02 and 0.08.
+  - `bodyColor` is set to white.
+  - The radius is set to 2.
+
+4. **Satellite Movement and Rendering**:
+- **Overview**: Verify that the satellite correctly orbits around the planet and is rendered properly.
+- **Evaluation Points**:
+  - The satellite orbits around its parent planet based on the specified parameters.
+  - The drawing position is correctly calculated, and the satellite moves smoothly.
+
+5. **Construction of the Solar System**:
+- **Overview**: Confirm that the Sun, planets, and satellites are correctly arranged based on the specified parameters.
+- **Evaluation Points**:
+  - A `Sun` object is placed at the center.
+  - **Planet 1**:
+    - Exists with a `distance` of 150, a radius of 10, and an `angleSpeed` of 0.01.
+    - This planet has 1 satellite.
+  - **Planet 2**:
+    - Exists with a `distance` of 250, a radius of 10, and an `angleSpeed` of 0.008.
+    - This planet has 2 satellites.
+  - **Planet 3**:
+    - Exists with a `distance` of 350, a radius of 20, and an `angleSpeed` of 0.006.
+    - This planet has 72 satellites.

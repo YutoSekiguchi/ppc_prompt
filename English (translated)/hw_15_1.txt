@@ -1,0 +1,18 @@
+1. **Class Inheritance**:
+- Ensure that the `TimerCore` class is correctly inherited.
+ - **Evaluation Points**:
+  - The timer class should properly inherit from `TimerCore`.
+  - The properties and methods of the parent class (e.g., basic timer functions) should be used correctly.
+2. **Timer Class Creation**:
+- Verify the creation of at least two timer classes inspired by `TextTimer` and `ProgressTimer`.
+  - **Evaluation Points**:
+   - Each new timer class should have unique features or display methods.
+3. **Timer Function Implementation**:
+- Confirm that the timer accurately measures 60 seconds after a click.
+ - **Evaluation Points**:
+  - The timer should start upon a click trigger.
+  - The 60-second measurement should be accurate.
+4. **Timer Display**:
+- Verify that at least three instances of each new timer class are displayed.
+ - **Evaluation Points**:
+  - At least three instances from each timer class should be generated and displayed on the screen.

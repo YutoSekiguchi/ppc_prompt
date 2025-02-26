@@ -1,0 +1,5 @@
+1. The window size is 600x200.
+2. The `textSize` is set to 48.
+3. The current time is displayed as text in the format year/month/day hour:minute:second every second.
+4. The current time is printed to the standard output in the format like "2024年4月25日 20時2分16秒" every second.
+5. `println` is used for standard output.

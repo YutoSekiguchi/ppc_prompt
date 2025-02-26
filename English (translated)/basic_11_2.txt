@@ -1,0 +1,4 @@
+1. **Board Color**: The board is green.
+2. **Initial Board State**: An 8x8 Othello board and the initial placement of Othello pieces are correctly displayed.
+3. **Piece Placement**: Clicking an empty cell places a white or black piece according to the turn.
+4. **Piece Flipping**: Clicking a cell with a piece changes the piece's color.

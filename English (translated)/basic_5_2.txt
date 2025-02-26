@@ -1,0 +1,15 @@
+1. **Window Size**: The window size is `size(800, 800)`.
+2. **Using drawCharacter Function**: Utilizes the drawCharacter function that draws a character at a given 2D coordinate.
+3. **Initial Position**: The character is drawn at the center of the screen (400, 400).
+4. **Character Movement**: The x-coordinate is incremented by 1, moving the character automatically from left to right.
+5. **Loop Movement**: The character reappears on the left edge when reaching the right edge.
+
+### Evaluation of Insufficient Points
+1. The right edge and left edge are not perfectly aligned when the character reappears from the right edge to the left edge.
+・Even if it's not perfect, if the character moves from the right edge to the left edge, it's acceptable. This is not a requirement explicitly stated in the task, so it will not be subject to penalty.
+2. The initial position is not specified as a numerical value (400, 400).
+・If the calculated result is 400, it's acceptable even if it's not explicitly stated as 400. However, please note that frameCount starts from 1 in the draw function.
+3. The character movement does not increment the x-coordinate by 1.
+・If the movement is achieved using frameCount or similar methods, it's acceptable even if it's not explicitly stated as incrementing by 1. This is not a requirement explicitly stated in the task, so it will not be subject to penalty.
+4. The presence of translate(cx-250, cy-250).
+・This is part of the distributed program, so it will not be subject to penalty.

@@ -1,0 +1,3 @@
+1. **Board Composition**: A 5x5 board is correctly displayed.
+2. **Cell Click Action**: Clicking a cell inverts the color of that cell and its adjacent cells (up, down, left, right).
+3. **Clear Condition**: When all cells are black, "CLEAR!" is displayed as text. The position of the text can be anywhere within the window (not necessarily centered).

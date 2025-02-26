@@ -1,0 +1,8 @@
+1. **Window Size**: Ensure the window size is set to size(800, 800).
+2. **Circle Drawing**: A circle with a diameter of 800 pixels is drawn within the window.
+3. **Random Point Generation**: Generate random XY coordinates with each call to draw().
+4. **Point Color Differentiation**: Randomly generated points are colored red if inside the circle and blue if outside.
+   - Check if points inside the circle are drawn as red circles with a diameter of 3 pixels, a line thickness of 1 pixel, and both fill and stroke in red.
+   - Check if points outside the circle are drawn as blue circles with a diameter of 3 pixels, a line thickness of 1 pixel, and both fill and stroke in blue.
+5. **Pi Approximation Calculation**: Calculate the approximation of pi using the formula π ≈ 4 × (number of points inside the circle / total number of points).
+6. **Standard Output**: Output the pi approximation to standard output every 1000 iterations.

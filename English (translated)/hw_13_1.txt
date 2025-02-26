@@ -1,0 +1,3 @@
+1. **Number of Shapes**: There are 5 red circles and 6 blue squares displayed.
+2. **Velocity Setting**: The velocity in the x and y directions is randomly set between -5 and 5.
+3. **Bounce Implementation**: Shapes correctly bounce off the walls when they hit them.

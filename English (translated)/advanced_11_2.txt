@@ -1,0 +1,11 @@
+1. **Window Setup**: Ensure the window size is set to size(800, 800).
+2. **2D Array Setup**: Create a 2D array with both dimensions being at least 100. The requirements are described using boolean type, but using int type will not result in a deduction.
+3. **Array Content Rendering**: Render a grid of 100 rows and 100 columns. Fill the squares with green if the corresponding element in the 2D array is True, otherwise fill it with black.
+4. **Birth Implementation**: If an element is False and exactly three of its eight surrounding elements are True, switch that element from False to True in the next generation.
+5. **Death Implementation**: If an element is True and either one or fewer of its eight surrounding elements are True, or four or more are True, switch that element from True to False in the next generation.
+6. **Maintenance Implementation**: Elements that do not meet the criteria in 4. or 5. should not change from True/False in the next generation. Explicit implementation is not necessary.
+
+## Notes
+- Replace True and False with 1 and 0 respectively if using int type.
+- If creating an array larger than 101 in requirement 2, ensure the render range and life/death toggle range for the window is correct when grading.
+- The example provided includes a graph showing the number of living cells, but its implementation does not affect grading.

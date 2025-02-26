@@ -1,0 +1,11 @@
+1. **Window Size**: The window size is `size(600, 600)`.
+2. **Creating drawClock Function with Five Arguments**: Defines a function with five arguments: center x, y coordinates, hour, minute, and second. It draws a circle with a radius of 200 from the center and displays an analog clock showing the current time.
+3. **Hour Hand Length**: The hour hand length is 100.
+4. **Minute Hand Length**: The minute hand length is 150.
+5. **Second Hand Length**: The second hand length is 190.
+6. **Using Mouse Coordinates**: Uses drawClock to display an analog clock centered at the mouse coordinates.
+7. **Displaying Current Time**: Uses drawClock to display an analog clock showing the current time centered at the mouse coordinates.
+
+### Evaluation of Insufficient Points
+1. Inappropriate length of hour, minute, and second hands
+- If the hour hand is r-100, the minute hand is r-50, and the second hand is r-10, it meets the requirements of the task and will not be subject to penalty.

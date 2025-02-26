@@ -1,0 +1,4 @@
+1. The window size is 600x400.
+2. The Italian flag is mimicked using three colors: green (0, 173, 26), white (255, 255, 255), and red (255, 0, 16). (One color can be used as the background and the other two can be drawn with `rect`.)
+3. The border of the area is removed.
+4. There is a `void setup()`.

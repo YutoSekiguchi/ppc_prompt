@@ -1,0 +1,9 @@
+1. **Window Size**: The window size is `size(400, 300)`.
+2. **Dice for Person A**: Person A's dice is set to roll numbers from 1 to 6 (`(int)random(1, 7)`).
+3. **Dice for Person B**: Person B's dice is set to roll numbers from 1 to 4 (`(int)random(1, 5)`).
+4. **Standard Output for Results**: Determines the winner based on the larger value, or a draw if equal, and outputs the result.
+   - Example Output:
+     - Person A: 3
+     - Person B: 4
+     - Person B wins
+5. **Click Implementation**: Re-rolls the dice and updates the result with each mouse click.

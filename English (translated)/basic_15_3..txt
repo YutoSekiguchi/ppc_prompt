@@ -1,0 +1,14 @@
+1. **Class Inheritance**:
+- Ensure that the `CharacterBase` class is correctly inherited.
+ - **Evaluation Points**:
+  - Inherits from the `CharacterBase` class.
+  - Correctly utilizes inherited properties (`centerX`, `centerY`) and methods.
+2. **Overriding `displayActive` and `displayInactive`**:
+- Confirm that the `displayActive` and `displayInactive` methods are correctly overridden in the inherited class.
+3. **Replacing and Simultaneous Display of Existing Characters**:
+- Replace the `CharacterBase` class characters (□) and `ExNakamura334` class characters with custom class characters and verify that both are displayed together.
+ - **Evaluation Points**:
+  - Custom class characters are correctly replacing the `ExNakamura334` class characters.
+  - Both characters are displayed simultaneously and function correctly.
+4. **File Separation**:
+- Verify that each class is created as a separate file.

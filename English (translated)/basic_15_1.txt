@@ -1,0 +1,23 @@
+1. **Class Inheritance**:
+- CircleClass, SquareClass, CrossClass, and TriangleClass inherit from the ObjectBase class.
+ - Evaluation Points:
+  - Ensure appropriate inheritance in class declarations.
+2. **Object Implementation**:
+- CircleClass displays a moving red circle.
+- SquareClass displays a moving blue square.
+- CrossClass displays a moving black "×".
+- TriangleClass displays a moving green triangle.
+ - Evaluation Points:
+  - Confirm correct implementation of drawing processes.
+  - Verify that colors and shapes are as specified.
+3. **Object Creation and Behavior**:
+- Create 50 instances of each class.
+- Each object's speed in both x and y directions is a real number between -5 and 5.
+ - Evaluation Points:
+  - Confirm correct number of objects are created.
+  - Ensure initial speed values are set randomly within the specified range.
+4. **Boundary Behavior**:
+- CircleClass and SquareClass objects bounce off the edges of the screen.
+- CrossClass and TriangleClass objects reappear on the opposite side if they move out of the screen (screen looping).
+5. **ArrayList Usage**:
+- Use ArrayList for managing objects.

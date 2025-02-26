@@ -1,0 +1,4 @@
+1. **Window Size**: Ensure the window size is set to size(800, 800).
+2. **Shape Drawing**: Draw a regular N-sided polygon inscribed in a circle with a radius of 300 in the window. N should start from 3 and increase by 1 every 0.2 seconds. The implementation for N > 100 is optional. (3 points deducted if not satisfied)
+3. **N Display**: Display the current value of N in the format "N = (value)" in the top left corner of the window.
+4. **PI Approximation Display**: Calculate the value by dividing the side length of the drawn regular N-sided polygon by 600, and display this value in the top right corner

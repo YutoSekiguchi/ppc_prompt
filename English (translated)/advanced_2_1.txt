@@ -1,0 +1,6 @@
+1. The window size is 600x400.
+2. The Italian flag is imitated with three colors: green (0, 173, 26), white (255, 255, 255), and red (255, 0, 16) (one color can be drawn as the background and the other two colors as rectangles).
+3. The region's borders are removed.
+4. void setup() is present.
+5. The execution result imitates the flag of South Africa.
+6. The region's borders are not drawn.

@@ -1,0 +1,9 @@
+1. **Gacha Button Functionality**: When the Gacha button is clicked, one of the five types of cards is randomly selected, and the count for that card is incremented by one. 
+  - If clicking the Gacha button multiple times does not change the count of any card, deduct 3 points.
+  - If due to incorrect range specification in random(), clicking the Gacha button causes numbers to inconsistently increase or not increase, or if a specific card's number never increases, deduct 1 point.
+2. **Reset Button Resets Numbers**: Clicking the Reset button sets the count of all cards back to zero. (If not met, deduct 3 points)
+3. **Disable Clicks Outside Buttons**: Ensure that clicking anywhere other than the Gacha button and Reset button does nothing. (If not met, deduct 3 points)
+4. **Complete Function Implementation**: Implement the isComplete function. The isComplete function should return true if all five types of cards have a count of one or more, otherwise false. (If not met, deduct 3 points)
+5. **Complete State Visuals**: If the isComplete function returns true, change all cards to red and display the text "Complete" in the window.
+6. **Reset Button Resets Visuals**: When the Reset button is clicked in the state where isComplete is true, change the card colors back to white and remove the "Complete" text. At this time, the return value of isComplete should also revert to false.
+7. **Cards are White When Not Complete**: While isComplete is false, keep all cards white.

@@ -1,0 +1,8 @@
+1. **Window Size**: The window size is `size(800, 800)`.
+2. **Creating drawCurve Function**: A function is correctly created to draw curves based on the specified formula.
+   - 100*(cos(a*t)-pow(cos(b*t), 3))+400 and 100*(sin(c*t)-pow(sin(d*t), 3))+400;
+   - or
+   - 100*(cos(a*t)-cos(b*t)*cos(b*t)*cos(b*t))+400 and 100*(sin(c*t)-sin(d*t)*sin(d*t)*sin(d*t))+400;
+3. **Drawing Curves**: The drawCurve function is used to correctly draw curves on the screen.
+4. **Redrawing on Click**: Each time the screen is clicked, the values of a, b, c, and d are randomly determined between 1 and 20, and the curve is redrawn.
+5. **Displaying Parameters**: The values of a, b, c, and d are displayed on the screen.

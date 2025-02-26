@@ -1,0 +1,11 @@
+1. **Window Size**: The window size is `size(300, 300)`.
+2. **Circle Placement**: Circles with a radius of 50 pixels are correctly drawn at positions (50, 150), (150, 150), and (250, 150).
+3. **Click Detection**: Based on the circle clicked by the user, left chooses Rock (0), middle chooses Scissors (1), and right chooses Paper (2).
+4. **Computer Hand Selection**: When the user selects a hand, the computer also randomly selects a hand.
+5. **Creating judgeJanken Function**: A function is correctly created to determine the result of the match (1 if the user wins, 0 for a draw, -1 if the user loses) using the user's and computer's hands as arguments.
+6. **Result Display**: The result of the match is displayed in the standard output.
+   - Example Output:
+     - You chose Paper
+     - Computer chose Paper
+     - Draw
+7. **Retry**: The program allows for repeated play of Rock-Paper-Scissors.

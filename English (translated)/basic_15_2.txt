@@ -1,0 +1,34 @@
+1. **Class Inheritance**:
+- Confirm that the `Rock`, `Scissors`, and `Paper` classes correctly inherit from the `Hand` class.
+ - **Evaluation Points**:
+  - Ensure appropriate inheritance is declared in the class declaration.
+  - Verify the correct use of inherited properties and methods (e.g., `m_type` and `m_isAlive`).
+
+2. **Specification of `m_type` in Constructor**:
+- Verify that `m_type` is correctly specified in the constructor.
+ - **Evaluation Points**:
+  - Ensure `m_type` is appropriately set.
+
+3. **Overriding `display` Method**:
+- Override the `display` method to ensure the object is correctly displayed when `m_isAlive` is `true`. Displaying as text is acceptable.
+ - **Evaluation Points**:
+  - Confirm that the `display` method is correctly overridden in each class.
+  - Check that the state of `m_isAlive` is correctly verified.
+
+4. **Boundary Behavior**:
+- Confirm that Rock and Paper objects bounce off walls.
+- Check that Scissors objects loop to the opposite side upon reaching a wall.
+ - **Evaluation Points**:
+  - Verify that collision detection with walls is correctly implemented.
+  - Ensure that the reflection behavior of Rock and Paper is appropriate.
+  - Confirm that the looping behavior of Scissors is correctly executed.
+
+5. **Object Creation and Behavior**:
+- Verify that 30 instances each of Rock, Scissors, and Paper objects are randomly placed on the screen.
+- Check that the speed of Rock is within the range of -2 to less than 2 in both x and y directions.
+- Ensure the speed of Scissors is within the range of -5 to less than 5 in both x and y directions.
+- Confirm that the speed of Paper is within the range of -10 to less than 10 in both x and y directions.
+ - **Evaluation Points**:
+  - Ensure the number of objects created matches the specified count.
+  - Check that their initial positions are set randomly.
+  - Verify that each object's speed is set randomly within the specified range.

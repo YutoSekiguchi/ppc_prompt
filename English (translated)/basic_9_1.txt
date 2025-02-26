@@ -1,0 +1,4 @@
+1. **Creating isPrime Function**: A function is correctly created to take a single integer argument and determine if it is a prime number, returning true if it is prime and false otherwise.
+2. **Outputting Twin Primes**: Twin primes up to 1000 are correctly displayed in the standard output.
+3. **Pair Display Format**: The prime pairs are displayed.
+4. **Outputting Total Number of Twin Primes**: The total number of twin primes is correctly displayed in the standard output.

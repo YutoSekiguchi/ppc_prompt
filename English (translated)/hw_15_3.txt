@@ -1,0 +1,5 @@
+1. **Number of Pens/Brushes**:
+- Verify that at least 5 types of pens or brushes are implemented in the program.
+ - **Evaluation Points**:
+  - The number of pens or brushes is 5 or more.
+  - Each pen or brush has unique features or characteristics (e.g., color, thickness, shape).

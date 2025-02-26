@@ -1,0 +1,8 @@
+1. The window size is 1100x600.
+2. The path of the falling ball is drawn by drawing a green circle with a diameter of 20 pixels at each frame, starting from the top of the window (600√3) and falling freely down.
+3. The path of the ball shot from the left-bottom corner (0,600) at an initial speed of 200px/s and an angle of 30 degrees is drawn by drawing a red circle with a diameter of 20 pixels at each frame.
+4. The path of the ball shot from the left-bottom corner (0,600) at an initial speed of 120px/s and an angle of 30 degrees is drawn by drawing a blue circle with a diameter of 20 pixels at each frame.
+
+The following is a memo and will not be included in the evaluation.
+・Even if the instruction "Make the elapsed time per frame 0.1 seconds" is included in the task, the specification of frameRate() is excluded from the evaluation as in the previous year. However, if the number of drawn circles is insufficient because drawing is not performed every frame, -1 point will be deducted regardless of the color.
+・In conditions 3 and 4, the angle is explicitly stated as "30 degrees", but it is also acceptable to calculate the angle using sin and cos in the program.

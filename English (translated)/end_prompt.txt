@@ -1,0 +1,15 @@
+### Output Format:
+・List only the reasons that are not met. **Do not include the evaluation criteria themselves**. **If the evaluation criteria are met, do not mention them**.
+・At the end of the report, state **the number of unmet evaluation criteria as "Deductions: X"**. However, if there are three or more unmet criteria, write "Deductions: 3". Do not include points for criteria that are met.
+・If all criteria are met, output only "Deductions: 0".
+・Providing incorrect information is strictly prohibited.
+・Do not include methods of correction or improvement.
+・Do not include any specific code.
+
+### Example Output:
+- It says "Hey" instead of "Hello".
+- The height is 300.
+Deductions: 2
+
+### Another Example Output:
+Deductions: 0

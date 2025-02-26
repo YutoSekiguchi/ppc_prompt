@@ -1,0 +1,6 @@
+1. **Window Size**: The window size is `size(450, 150)`.
+2. **Button Placement**: Draws circles with diameters of 50 pixels at center (75,75), 80 pixels at center (225,75), and 100 pixels at center (375,75).
+3. **Color Switching**: The fill color changes from white to black and vice versa each time a button is pressed.
+4. **Independent Operation**: Each button operates independently and does not affect other buttons.
+5. **Reaction Range**: Responds only within the circle and not outside.
+6. **Initial Circle Color**: Initially, only the circle with a diameter of 80 pixels at center (225,75) is black.

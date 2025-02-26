@@ -1,0 +1,4 @@
+1. **Square Size**: The side length is set to a random integer value within the range of 10 to 30.
+2. **Velocity Setting**: Squares move correctly with a velocity in the x and y directions as real numbers between -5 and 5.
+3. **Bounce Implementation**: Squares bounce correctly when they hit a wall.
+4. **Display of 30 Squares**: 30 squares are displayed and moving around within the screen.

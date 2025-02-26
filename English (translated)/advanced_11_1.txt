@@ -1,0 +1,30 @@
+1. **Implementation of function display()**: Implement the function void display() that takes a 3x3 matrix as a two-dimensional array argument and displays its contents.
+2. **Implementation of function det()**: Implement the function float det() that takes a 3x3 matrix as a two-dimensional array argument and calculates its determinant.
+3. **Implementation of function trace()**: Implement the function float trace() that takes a 3x3 matrix as a two-dimensional array argument and calculates its trace.
+4. **Implementation of function norm()**: Implement the function float norm() that takes a 3x3 matrix as a two-dimensional array argument and calculates its Euclidean norm.
+5. **Passing Test Cases**: Ensure the correct output for the test cases provided in the distributed program. The correct output is as follows:
+'''
+Matrix:
+ 2.0	-1.0	0.0
+-1.0	2.0	-1.0
+ 0.0	-1.0	-2.0
+Determinant (det) = -8.0
+Trace (trace) = 2.0
+Euclidean Norm (norm) = 4.0
+
+Matrix:
+ 2.0	2.0	3.0
+ 1.0	4.0	5.0
+ 0.0	-1.0	-2.0
+Determinant (det) = -5.0
+Trace (trace) = 4.0
+Euclidean Norm (norm) = 8.0
+'''
+
+##Notes
+- Given a matrix A, where A[i][j] represents the element in the i-th row and j-th column (0 <= i <= 2, 0 <= j <= 2), the formulas for determinant, trace, and Euclidean norm are as follows. If using loops like for, achieving equivalent calculations is acceptable.
+-- Determinant: A[0][0]*(A[1][1]*A[2][2] - A[1][2]*A[2][1]) - A[0][1]*(A[1][0]*A[2][2] - A[1][2]*A[2][0] + A[0][2]*(A[1][0]*A[2][1] - A[1][1]*A[2][0])
+-- Trace: A[0][0] + A[1][1] + A[2][2]
+-- Euclidean Norm: sqrt(A[0][0]^2 + A[0][1]^2 + A[0][2]^2 + A[1][0]^2 + A[1][1]^2 + A[1][2]^2 + A[2][0]^2 + A[2][1]^2 + A[2][2]^2)
+- Outputs for test cases are correct even if decimals are truncated.
+- If test cases are modified, visually verifying that requirements 1. to 4. are met is sufficient to satisfy 5.

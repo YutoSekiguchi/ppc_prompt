@@ -1,0 +1,9 @@
+1. The window size is 550x400.
+2. Use the colors red (239, 43, 45), blue (0, 40, 104), and white (255, 255, 255) for the flag.
+3. The red area should appear as two regions of 150 pixels in height and width at the top left and bottom left, and two regions of 150 pixels in height and 300 pixels in width at the top right and bottom right (this can be achieved by using red as the background and separating with white).
+4. One of the blue areas has its top-left corner at (175, 0) with a width of 50 pixels and a height of 400 pixels (can be drawn with `stroke`).
+5. Another blue area has its top-left corner at (0, 175) with a width of 550 pixels and a height of 50 pixels (can be drawn with `stroke`).
+6. The design should appear as if there is a 25-pixel white border around the blue cross, with RGB values of (255, 255, 255) (can be drawn with `stroke`).
+7. Do not draw the border.
+8. **The Norwegian flag should be mimicked.**
+9. There is a `void setup()`.

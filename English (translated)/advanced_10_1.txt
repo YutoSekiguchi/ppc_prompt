@@ -1,0 +1,9 @@
+1. **Prime Number Check by Simple Method**: Implement a process to determine whether each number from 2 to 1,000,000 is prime or not using a method other than the Sieve of Eratosthenes. Visual confirmation of the corresponding code is sufficient.
+2. **Timing Measurement for Simple Method**: Implement a process to calculate and output the time taken for the process in 1. The output unit should be milliseconds (ms). Visual confirmation of the corresponding code is sufficient.
+3. **Sieve of Eratosthenes Implementation**: Prepare an array with 1,000,001 elements. Implement the Sieve of Eratosthenes algorithm so that the x-th element of the array is true (or 1 or more) if x is prime, and false (or 0) if x is composite.
+4. **Prime Number Check with Sieve of Eratosthenes**: Use the Sieve of Eratosthenes to determine whether each number from 2 to 1,000,000 is prime or not, and output the correct count (78,498 primes).
+5. **Timing Measurement for Sieve of Eratosthenes**: Calculate and output the time taken for the prime number check using the Sieve of Eratosthenes. The output unit should be milliseconds (ms).
+6. **Execution Time Constraint**: The prime number check using the Sieve of Eratosthenes must be completed within 100 milliseconds.
+
+## Supplement
+- For requirements 1 and 2, since the execution time may be long, it is sufficient to visually confirm the corresponding code. Also, when executing the prime number check using the Sieve of Eratosthenes, it is acceptable to comment out the simple method part.

@@ -1,0 +1,5 @@
+1. **Setting Background Image**: A background image is set.
+2. **Character Movement**: Two characters move within the screen.
+3. **Wall Collision**: Characters bounce off walls.
+4. **Sound Effect Playback**: A sound effect plays when characters hit a wall.
+5. **Speed Setting**: The speed is set so that collisions with walls are visibly noticeable.

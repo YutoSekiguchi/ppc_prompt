@@ -1,0 +1,3 @@
+1. **Creating drawMinimumRect Function**: A function is correctly created to draw the smallest rectangle enclosing a given set of points.
+2. **Point Drawing**: The set of points is correctly drawn.
+3. **Drawing Minimum Rectangle**: The smallest rectangle is correctly drawn to enclose the set of points.

@@ -1,0 +1,5 @@
+1. The window size is `size(500, 500)`.
+2. A line is drawn from the center of the window ((width/2, height/2) or (250, 250)) to the mouse coordinates (mouseX, mouseY).
+3. A white circle is drawn with a radius equal to the distance from the center of the window to the mouse coordinates (mouseX, mouseY).
+4. The radius r and area S of the circle are calculated and displayed as text on the screen.
+5. There is no standard output using `println` or `print`.

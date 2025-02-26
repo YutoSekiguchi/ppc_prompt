@@ -1,0 +1,4 @@
+1. **Class Creation**: Ensure that SquareClass, CrossClass, and TriangleClass are correctly created.
+2. **Number of Objects**: Display 10 circles, 5 squares, 5 crosses, and 3 triangles on the screen.
+3. **Object Movement**: CircleClass and SquareClass move randomly within the range of real values for velocity in the x and y directions, between -5 and +5, and bounce off walls.
+4. **Object Movement 2**: CrossClass and TriangleClass move randomly within the range of real values for velocity in the x and y directions, between -5 and +5, and reappear from the opposite side when they hit a wall.

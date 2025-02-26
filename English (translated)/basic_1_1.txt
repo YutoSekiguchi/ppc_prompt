@@ -1,0 +1,5 @@
+1. The window size is 400x300.
+2. The window background is white.
+3. There is a red circle at the center of the window (200, 150).
+4. The diameter of the red circle is 150.
+5. There is a void setup().

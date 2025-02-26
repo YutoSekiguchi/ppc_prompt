@@ -1,0 +1,5 @@
+1. **Window Size**: The window size is `size(500, 300)`.
+2. **Rectangle Drawing**: A red rectangle with a top-left corner at (150, 100), width 200, and height 100 is correctly drawn.
+3. **Click Detection**: Clicking inside the red rectangle generates three random integers between 1 and 100.
+4. **Creating getMiddle Function**: A function getMiddle is correctly created to return the median of three integers as arguments.
+5. **Result Display**: The three generated numbers and their median are displayed in the standard output.

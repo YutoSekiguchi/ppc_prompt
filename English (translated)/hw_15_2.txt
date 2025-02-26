@@ -1,0 +1,15 @@
+1. **Class Inheritance**:
+- Ensure that your custom agent class correctly inherits from the `JankenAgent` class.
+ - **Evaluation Points**:
+  - Your custom agent class should properly inherit from the `JankenAgent` class.
+  - The properties and methods of the parent class (e.g., `battle` method) should be used appropriately.
+2. **Agent Implementation**:
+- Verify that the agent correctly selects a hand based on Janken rules.
+ - **Evaluation Points**:
+  - Your custom agent should select a hand according to Janken rules.
+  - Points should be correctly awarded based on the outcome (+3 for Rock, +5 for Scissors, +6 for Paper when winning).
+3. **`battle` Method Implementation**:
+- Ensure that the `battle` method takes your agent and the opponent agent as arguments and executes the match correctly.
+ - **Evaluation Points**:
+  - The `battle` method should repeat until reaching 10,000 points.
+  - It should be capable of winning against both `JankenAgent` and `AgentNakamura334`.

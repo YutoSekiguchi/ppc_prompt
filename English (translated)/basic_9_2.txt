@@ -1,0 +1,5 @@
+1. **Window Size**: The window size is `size(900, 600)`.
+2. **Drawing Odd Rows**: In odd rows, 30-pixel black squares are correctly drawn (if the background is white, not drawing white squares is acceptable).
+3. **Drawing Even Rows**: In even rows, 30-pixel black squares are correctly drawn shifted 15 pixels to the left (if the background is white, not drawing white squares is acceptable).
+4. **Drawing Horizontal Lines**: Gray horizontal lines with a thickness of 2 are correctly drawn for each row (gray lines should be displayed from the top edge of the screen).
+5. **Excluding Vertical Lines**: When drawing squares in 2 and 3, noStroke() is used to avoid drawing borders. Additionally, no gray lines other than the horizontal lines in 4 are drawn.

@@ -1,0 +1,7 @@
+1. **Window Size**: Display a window with size(800, 800).
+2. **Vertex Drawing**: Draw 64 circles with a diameter of 5 pixels at equal intervals on the circumference of a circle with a radius of 300 pixels centered at (400, 400).
+-- Deduct 3 points if the number of circles with a diameter of 5 pixels is not 64.
+-- If the number of circles is correct but there are errors elsewhere, deduct 1 point.
+3. **Drawing Lines Between Vertices**: Specify a prime number p and use a for or while loop to draw a line from each vertex to the vertex that is p positions away in a clockwise (or counterclockwise) direction, executing this for all 64 vertices exactly once.
+4. **Trial with 5 Different Primes**: Change the value of the specified prime number p and repeat process 3 at least 5 times. (Deduct 3 points if not satisfied)
+5. **Changing Line Colors**: The color of the drawn lines should be different for each specified prime number p.

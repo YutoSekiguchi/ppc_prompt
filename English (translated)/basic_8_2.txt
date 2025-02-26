@@ -1,0 +1,6 @@
+1. **Window Size**: The window size is `size(600, 300)`.
+2. **Creating drawStripes Function**: A function is created to draw black rectangles (stripes) with a width of 10 pixels, skipping 10 pixels in between, up to the right edge of the screen.
+3. **White and Black Rectangles**: Rectangles with a width of 20 pixels and height of 100 pixels (white and black, respectively) are drawn at y-coordinates 50 pixels and 150 pixels from the left edge, moving 1 pixel to the right.
+4. **Loop Movement**: The rectangles reappear from the left edge when reaching the right edge.
+5. **Removing Borders**: The rectangles do not have borders.
+6. **Function Name Confirmation**: The drawStripes function must be created.

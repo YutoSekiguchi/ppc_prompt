@@ -1,0 +1,6 @@
+1. The window size is 600x500.
+2. Four red triangles are drawn.
+3. Triangle with vertices: (0, 0) top-left corner of the screen, (mouseX, 0) point on the top edge aligned with the mouse's x-coordinate, (mouseX, mouseY) current mouse position.
+4. Triangle with vertices: (width or 600, 0) top-right corner of the screen, (width or 600, mouseY) point from the right edge down to the mouse's y-coordinate, (mouseX, mouseY) current mouse position.
+5. Triangle with vertices: (width or 600, height or 500) bottom-right corner of the screen, (mouseX, height or 500) point from the bottom edge left to the mouse's x-coordinate, (mouseX, mouseY) current mouse position.
+6. Triangle with vertices: (0, height or 500) bottom-left corner of the screen, (0, mouseY) point from the left edge up to the mouse's y-coordinate, (mouseX, mouseY) current mouse position.

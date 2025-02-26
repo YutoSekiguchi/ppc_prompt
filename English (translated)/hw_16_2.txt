@@ -1,0 +1,24 @@
+1. **Object Creation Conditions Implementation**:
+- **Overview**: Ensure that every time you click within an 800x600 window, an appropriate object (`Rock`, `Scissors`, `Paper`) is generated based on the click location.
+- **Evaluation Points**:
+ - An instance of the `Rock` class should be generated if the click occurs in the top third of the window.
+ - An instance of the `Scissors` class should be generated if the click occurs in the middle third of the window.
+ - An instance of the `Paper` class should be generated if the click occurs in the bottom third of the window.
+
+2. **Specification of m_type**:
+- **Overview**: Ensure that `m_type` is correctly specified in the constructor of each class.
+- **Evaluation Points**:
+ - `m_type` should be appropriately set in the constructors of the `Rock`, `Scissors`, and `Paper` classes.
+
+3. **Object Behavior**:
+- **Overview**: Ensure that each object exhibits the specified behavior.
+- **Evaluation Points**:
+ - `Rock` and `Paper` objects should bounce off the walls.
+ - `Scissors` objects should loop to the opposite side upon reaching a wall.
+
+4. **Object Speed Settings**:
+- **Overview**: Ensure that the speed of each object is set to a random value within the specified range.
+- **Evaluation Points**:
+ - The speed of `Rock` should be a random value between -2 and 2 in both x and y directions.
+ - The speed of `Scissors` should be a random value between -5 and 5 in both x and y directions.
+ - The speed of `Paper` should be a random value between -10 and 10 in both x and y directions.

@@ -1,0 +1,6 @@
+1. The window size is 800x300.
+2. The x-coordinate for drawing vertical lines changes by 1px every 50 milliseconds (20 frames per second), and lines or rectangles with a width of 1 are drawn.
+3. The height of the vertical lines is the same as the window height.
+4. The red component of the line color is the x-coordinate of the mouse.
+5. The green component of the line color is the y-coordinate of the mouse.
+6. The blue component of the line color is the current second of the time.

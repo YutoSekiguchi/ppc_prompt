@@ -1,0 +1,15 @@
+1. **Window Size**: The window size must be size(800, 400).
+2. **Ground Display**: A ground area must be drawn at the bottom of the window.
+3. **Initial Character Position**: At the start of the program, the circle (or character) must be stationary at the X-coordinate 400. Additionally, the Y-coordinate should be set so that the bottom of the circle is touching the ground.
+4. **Horizontal Movement Implementation**: From a stationary position, pressing the left or right arrow key should cause the circle to start moving in the pressed direction. (Failure to meet this results in a 3-point deduction)
+5. **X-Direction Speed**: Each time the left arrow key is pressed, the x-direction speed of the circle should decrease by 1 (px/frame). Conversely, pressing the right arrow key should increase it by 1 (px/frame).
+6. **Loop Movement**: The circle should appear from the left edge when it reaches near the right edge of the screen, and vice versa.
+7. **Jump Implementation**: When the circle is in contact with the ground, pressing the up arrow key should make the circle jump. A jump is defined as the circle moving upwards and then downwards, eventually landing back on the ground after a certain period. (Failure to meet this results in a 3-point deduction)
+8. **End of Jump**: After jumping, the circle's y-direction speed should be 0 when it touches the ground again.
+9. **Jump Does Not Affect X-Direction**: Pressing the up arrow key should not change the circle's x-direction speed.
+
+### Notes
+- All instances of "circle" may also refer to "character."
+- The conditions "Horizontal Movement Implementation" and "X-Direction Speed" are intended to imply that "if pressing left or right does not cause any movement, a 3-point deduction is warranted," and "if movement occurs but the speed is incorrectly specified, a 1-point deduction applies."
+- For "Loop Movement," a common mistake occurs when moving left immediately after starting. Note that the result of x % 800 can be negative when x is negative.
+- The behavior of the jump is not specified. While motion influenced by gravity is preferred, constant velocity motion will not result in a deduction. However, behavior where the jump is not visible will result in a deduction.

@@ -1,0 +1,4 @@
+1. **Class Creation**: SquareClass and CrossClass are correctly created.
+2. **Object Movement**: Circles and crosses have speeds in the range of -5 to less than 5 for both x and y, while squares have speeds in the range of -20 to less than 20, and they function correctly.
+3. **Bouncing and Reappearing**: Circles and squares bounce off walls, and crosses reappear from the opposite side, all implemented correctly.
+4. **Screen Rendering**: 5 circles, 4 squares, and 3 crosses are displayed on the screen.

@@ -1,0 +1,5 @@
+1. **Window Size**: The window size is `size(400, 400)`.
+2. **Creating showDonut Function**: A function is created to draw a brown (103, 67, 45) donut, taking center coordinates, inner diameter, and outer diameter as arguments.
+3. **Drawing the Donut**: Uses the showDonut function to correctly draw a donut with an inner diameter of 150 pixels and an outer diameter of 300 pixels in the center of the window.
+4. **Creating isDonut Function**: A function is created that returns true when clicking on the donut part and false otherwise, taking center coordinates, inner and outer diameters, and mouse X and Y coordinates as arguments.
+5. **Click Detection**: Outputs "Donut!" to the standard output when clicking on the donut part, and does not react when clicking elsewhere.

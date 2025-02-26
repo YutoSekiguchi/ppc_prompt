@@ -1,0 +1,4 @@
+1. **Window Size**: The window size is `size(500, 100)`.
+2. **Circle Placement**: Ten circles with a diameter of 40 are aligned at Y-coordinate 50.
+3. **Color Change on Click**: Each time a circle is clicked, its color changes in the order [white → red → green → blue → black → white].
+4. **Initial Color**: The colors of the circles are correctly set at startup [white → red → green → blue → black → white → red → green → blue → black].

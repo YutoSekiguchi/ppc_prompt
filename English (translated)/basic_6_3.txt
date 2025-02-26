@@ -1,0 +1,5 @@
+1. **Window Size**: The window size is `size(400, 300)`.
+2. **Circle Movement**: Draws a circle that moves 3 pixels in the X direction and 2 pixels in the Y direction every frame.
+3. **Initial Position**: The initial position of the circle is set randomly.
+4. **Bouncing**: The circle is implemented to bounce (it bounces when the center of the circle reaches the edge, without considering the radius).
+5. **Color Change**: The fill color of the circle changes in the order of green → yellow → red each time it bounces.

@@ -1,0 +1,4 @@
+1. **Number of Circles**: 20 red circles are correctly drawn and displayed on the screen.
+2. **Initial Radius of Each Circle**: The initial radius of each circle is 50 pixels.
+3. **Velocity Setting**: The movement of the circles is randomly set within a real number range between -3 and 3 for both x and y directions.
+4. **Size Change on Click**: When a circle is clicked, its radius decreases by 5, and this behavior is correctly implemented.

@@ -1,0 +1,19 @@
+1. **Object Generation**:
+- **Overview**: Ensure that each click within an 800x600 window generates either a red circle or a blue square at the click location.
+- **Evaluation Points**:
+ - An object is generated at the clicked position.
+ - Red circles and blue squares are generated randomly.
+ - Position is set without using `mouseX` and `mouseY` in the constructor.
+
+2. **Object Behavior**:
+- **Overview**: Confirm that circles and squares exhibit specified behaviors.
+- **Evaluation Points**:
+ - Circles bounce off the walls in all directions.
+ - Squares reappear from the opposite side when reaching an edge (screen looping).
+ - Object speed is a real number between -5 and 5 in both x and y directions.
+
+3. **Object Size**:
+- **Overview**: Verify that the sizes of circles and squares are set randomly within specified ranges.
+- **Evaluation Points**:
+ - Circles have a random diameter between 5 and 60 upon generation.
+ - Squares have a random side length between 10 and 40 upon generation.

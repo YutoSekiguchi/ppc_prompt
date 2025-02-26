@@ -1,0 +1,8 @@
+1. **Character Display**: Ensure the character is displayed using the drawCharacter function. (3-point deduction if not met)
+2. **Ground Display**: Display the ground clearly so that the character's jump is noticeable.
+3. **Jump Implementation**: The character should jump when a circular button with a diameter of 50 pixels is clicked. (3-point deduction if not met)
+4. **Jump Behavior**: Ensure the jump is properly implemented.
+5. **End of Jump**: The character should stop when it reaches the ground after a jump.
+   - Deduct 3 points if the character disappears off-screen without stopping.
+6. **Non-Button Click Handling**: Clicking anything other than the button should not trigger a jump.
+7. **Re-jump Only After Landing**: During a jump, pressing the button should not trigger an additional jump.

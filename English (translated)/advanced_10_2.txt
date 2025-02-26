@@ -1,0 +1,10 @@
+1. **Array Preparation**: Prepare an array with 264 (or 265) elements.
+2. **Simulating Random Seating for the First Passenger**: Determine the seat number for the first passenger using a random number.
+3. **Simulating Seating for Subsequent Passengers**: For the i-th passenger where i >= 2, check if the i-th seat is vacant using the array. If it is vacant, the passenger sits there; otherwise, randomly choose a seat number from the remaining seats.
+4. **Verification of Seating for the 264th Passenger**: Repeat step 3 for all i from 2 to 264. For i == 264, check if the 264th seat is vacant using the array.
+5. **100,000 Simulations**: Repeat steps 1 to 4 for 100,000 times.
+6. **Calculation of Seating Success Rate**: Count the number of times the 264th seat was vacant when i == 264 during the 100,000 simulations, and divide by 100,000 to get the percentage.
+
+### Additional Information
+- You may prepare another array to allow the i-th passenger to sit in a seat determined by a random number rather than the i-th seat.
+- For the seating verification in requirement 4, if someone sits in the 264th seat when i < 264, you can consider it a failure and terminate the loop.

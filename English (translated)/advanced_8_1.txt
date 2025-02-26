@@ -1,0 +1,17 @@
+1. **1 Million Loop**: Ensure that a for loop or while loop executes 1,000,000 times (3 points deduction if not met).
+2. **Total Count Verification**: Ensure that the result is output to standard output. When adding up the selection counts of the five types, it should equal 1,000,000 (3 points deduction if not met).
+3. **Fire Selection Count Output**: The final selection count for "Fire" should be between 240,000 and 260,000.
+4. **Water Selection Count Output**: The final selection count for "Water" should be between 275,714 and 295,714.
+5. **Electric Selection Count Output**: The final selection count for "Electric" should be between 132,857 and 152,857.
+6. **Grass Selection Count Output**: The final selection count for "Grass" should be between 240,000 and 260,000.
+7. **Ground Selection Count Output**: The final selection count for "Ground" should be between 61,429 and 81,429.
+8. **Output Readability**: Ensure that the output results include labels corresponding to each type name. Labels should be strings, not numbers.
+
+### Supplement
+- The presence or absence of outputs concerning "Strongest Type" and "Weakest Type" is not included in the evaluation.
+- The calculated selection counts for each type are as follows (rounded to the nearest whole number). Due to randomness, a margin of error of about 10,000 is acceptable in the evaluation.
+-- Fire: 250,000
+-- Water: 285,714
+-- Electric: 142,857
+-- Grass: 250,000
+-- Ground: 71,429

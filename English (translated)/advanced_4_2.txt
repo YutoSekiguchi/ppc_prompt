@@ -1,0 +1,10 @@
+The character's eyes should meet the following conditions.
+
+If there are multiple eyes, each eye will be scored individually, and the highest-scoring eye will be used as the scoring target.
+
+1. The black eye is following the direction of the mouse cursor (3 points).
+2. The black eye's movement range is either the range of the white eye or a separately defined circular range, and the black eye does not follow the mouse cursor beyond that range (3 points).
+
+The following is a memo and will not be included in the evaluation.
+- For example, if the white eye's range is an ellipse and the black eye's movement range is a circle, and the black eye slightly sticks out of the white eye, there will be no penalty.
+- If the black eye follows the mouse cursor within an elliptical range, there will be no penalty. It's a great job, so please give them a compliment.

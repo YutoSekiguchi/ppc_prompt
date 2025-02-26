@@ -1,0 +1,32 @@
+1. **Basic Implementation of the VendingMachine Class**:
+- **Overview**: Confirm that the `VendingMachine` class is implemented to handle three types of Japanese coins: 10 yen, 50 yen, and 100 yen.
+- **Evaluation Points**:
+  - The `VendingMachine` class exists and is properly defined.
+  - Functions to handle 10 yen, 50 yen, and 100 yen coins are implemented.
+  - The prices of the products sold are in increments of 10 yen, ranging from 10 yen to 200 yen.
+
+2. **Implementation of Change Calculation**:
+- **Overview**: Verify if the function to calculate change from the inserted amount and purchase amount is implemented, and whether it notifies if a purchase cannot be made.
+- **Evaluation Points**:
+  - The change amount is calculated correctly.
+  - If the inserted amount is less than the purchase amount, an appropriate message is displayed and the inserted amount is returned.
+  - When returning change, it is calculated to be returned in the fewest number of coins possible.
+
+3. **Implementation of Display Messages**:
+- **Overview**: Check if the specified message is displayed correctly based on the presence of change or the ability to purchase.
+- **Evaluation Points**:
+  - If there is no change, display "Thank you. No change."
+  - If there is change, display "Thank you. Your change is 3 ten-yen coins and 1 fifty-yen coin," showing the breakdown of the change.
+  - If a purchase cannot be made, notify "Purchase cannot be made. Returning 0 ten-yen coins, 1 fifty-yen coin, and 1 hundred-yen coin," and return the inserted amount.
+
+4. **Implementation of Using Inserted Amount as Change**:
+- **Overview**: Confirm that the inserted money can also be used as change.
+- **Evaluation Points**:
+  - The inserted coins are included in the change calculation.
+  - The inserted coins are appropriately used when returning change.
+
+5. **Determination of Change Return Feasibility**:
+- **Overview**: Implement a process to cancel the purchase and return the inserted amount if change cannot be given.
+- **Evaluation Points**:
+  - If change cannot be returned, an appropriate message is displayed and the inserted amount is returned.
+  - The determination of whether change can be returned is accurately executed.

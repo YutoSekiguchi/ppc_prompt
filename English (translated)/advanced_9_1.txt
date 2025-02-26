@@ -1,0 +1,15 @@
+1. **Implementation of calcPI Function**: Implement a function `double calcPI(int N)` which takes an integer N as an argument (3 points will be deducted if not satisfied).
+2. **Approximation of Pi Using Fourier Series**: Within the calcPI function, implement the process to approximate the value of π as follows:
+-- Use a for or while loop to iterate a counter k from 0 to N, calculating (-1)^k / (2k+1) and summing up the results. Note that the continuation condition for a for loop should be k<=N, not k<N.
+-- Multiply the obtained sum by 4.
+3. **Attempts to Calculate Pi Approximation**: Change the argument of calcPI to 10, 100, 1000, 10000, 100000, 1000000, and 10000000, and output the result of each calculation to standard output.
+4. **Accuracy of Execution Results**: Ensure the outputted results are correct values.
+
+### Supplement: Example Execution Results
+N=      10 3.232315809405594 
+N=     100 3.1514934010709914 
+N=    1000 3.1425916543395442 
+N=   10000 3.1416926435905346 
+N=  100000 3.1416026534897203 
+N= 1000000 3.1415936535887745 
+N=10000000 3.1415927535897814 
